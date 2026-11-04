@@ -19,7 +19,7 @@ def open_camera(source):
 
 if __name__ == "__main__":
     # Change this to the address shown in the IP Webcam app (+ "/video")
-    SOURCE = "http://192.168.1.5:8080/video"
+    SOURCE = 0
 
     cap = open_camera(SOURCE)
     printed_shape = False
